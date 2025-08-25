@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+header {
+    background: linear-gradient(to right, #005c7e, #022c44);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+header input {
+    width: 80%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: beige;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200 ;
+    font-style: normal;
+}
+
+
+.search-section {
+    text-align: center;
+    padding: 15px 15px;
+    background: linear-gradient(to right, #005c7e, #022c44);
+    color: white;
+}
+
+
+.search-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.search-box button {
+    background: #000000;
+    border: none;
+    padding: 15px 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.search-box input{
+    width: 100%;
+}
+
+
+.search-box button:hover {
+    background: #000000;
+}
+
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+nav {
+    background: linear-gradient(to right, #005c7e, #022c44);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+
+}
+
+
+nav a:hover {
+    text-decoration: white;
+}
+
+nav {
+    background-color: #022c44;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 3px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #022c44;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    font-family: Arial, sans-serif;
+
+}
+.card img {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+
